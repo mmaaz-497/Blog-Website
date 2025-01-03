@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
+import Image from 'next/image';
 
 const Hero = () => {
   return (
@@ -9,10 +10,12 @@ const Hero = () => {
     <div className="flex flex-wrap -m-4">
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img
+          <Image
             className="lg:h-48 md:h-36 w-full object-cover object-center"
-            src="https://images.91wheels.com/news/wp-content/uploads/2021/03/2021-Hero-Passion-Pro-Pros-and-Cons-1.png"
+            src="/images/1bike.jpg"
             alt="blog"
+            width={721}
+            height={401}
           />
           <div className="p-6">
             <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
@@ -76,10 +79,12 @@ const Hero = () => {
       </div>
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img
+          <Image
             className="lg:h-48 md:h-36 w-full object-cover object-center"
-            src="https://images.pexels.com/photos/23548715/pexels-photo-23548715/free-photo-of-side-view-of-a-yamaha-motorcycle.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            src="/images/2bike.jpg"
             alt="blog"
+            width={721}
+            height={401}
           />
           <div className="p-6">
             <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
@@ -143,10 +148,12 @@ const Hero = () => {
       </div>
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img
+          <Image
             className="lg:h-48 md:h-36 w-full object-cover object-center"
-            src="https://images.pexels.com/photos/28996280/pexels-photo-28996280/free-photo-of-sporty-honda-motorcycle-in-urban-setting.jpeg?auto=compress&cs=tinysrgb&w=600"
+            src="/images/3bike.jpg"
             alt="blog"
+            width={721}
+            height={401}
           />
           <div className="p-6">
             <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
@@ -216,10 +223,12 @@ const Hero = () => {
     <div className="flex flex-wrap -m-4">
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img
+          <Image
             className="lg:h-48 md:h-36 w-full object-cover object-center"
-            src="https://images.pexels.com/photos/10924362/pexels-photo-10924362.jpeg?auto=compress&cs=tinysrgb&w=600"
+            src="/images/4bike.png"
             alt="blog"
+            width={700}
+            height={400}
           />
           <div className="p-6">
             <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
@@ -283,10 +292,12 @@ const Hero = () => {
       </div>
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img
+          <Image
             className="lg:h-48 md:h-36 w-full object-cover object-center"
-            src="https://images.pexels.com/photos/7099821/pexels-photo-7099821.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            src="/images/5bike.jpg"
             alt="blog"
+            width={720}
+            height={401}
           />
           <div className="p-6">
             <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
@@ -350,10 +361,12 @@ const Hero = () => {
       </div>
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img
+          <Image
             className="lg:h-48 md:h-36 w-full object-cover object-center"
-            src="https://images.pexels.com/photos/9418507/pexels-photo-9418507.jpeg?auto=compress&cs=tinysrgb&w=600"
+            src="/images/6bike.jpg"
             alt="blog"
+            width={720}
+            height={401}
           />
           <div className="p-6">
             <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
@@ -423,10 +436,12 @@ const Hero = () => {
     <div className="flex flex-wrap -m-4">
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img
+          <Image
             className="lg:h-48 md:h-36 w-full object-cover object-center"
-            src="https://images.pexels.com/photos/8532352/pexels-photo-8532352.png?auto=compress&cs=tinysrgb&w=600"
+            src="/images/7bike.jpg"
             alt="blog"
+            width={720}
+            height={401}
           />
           <div className="p-6">
             <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
@@ -490,10 +505,12 @@ const Hero = () => {
       </div>
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img
+          <Image
             className="lg:h-48 md:h-36 w-full object-cover object-center"
-            src="https://images.pexels.com/photos/8634510/pexels-photo-8634510.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+            src="/images/8bike.jpg"
             alt="blog"
+            width={720}
+            height={401}
           />
           <div className="p-6">
             <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
@@ -557,10 +574,12 @@ const Hero = () => {
       </div>
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img
+          <Image
             className="lg:h-48 md:h-36 w-full object-cover object-center"
-            src="https://images.pexels.com/photos/10939825/pexels-photo-10939825.jpeg?auto=compress&cs=tinysrgb&w=600"
+            src="/images/9bike.jpg"
             alt="blog"
+            width={720}
+            height={401}
           />
           <div className="p-6">
             <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
