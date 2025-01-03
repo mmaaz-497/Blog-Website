@@ -11,7 +11,7 @@ export default function page() {
       </h1>
        <Image
             className="lg:h-[700px] md:h-36 w-full object-cover object-center"
-            src='/images/1bike.jpg'
+            src="/images/1bike.jpg"
             alt="blog"
             width={500}
             height={500}
@@ -62,14 +62,7 @@ export default function page() {
         Summary:
       </h2>
       <p className="text-base md:text-xl leading-relaxed text-justify text-dark/80 dark:text-light/80">
-
-The **Honda CBR 600RR** is a high-performance sports bike designed for experienced riders who seek agility, speed, and precision. Featuring a **599cc inline-4 engine**, it delivers an impressive **118hp** and a top speed of **160 mph**, making it ideal for both track and road use. The bike's **aerodynamic design** is complemented by a **lightweight aluminum frame**, ensuring both speed and maneuverability.
-
-Equipped with **advanced suspension** and **dual disc brakes with ABS**, the CBR 600RR excels in handling and safety, offering exceptional cornering ability and stability. The **digital instrument cluster** with **LED headlights** and **cornering lights** enhances the riding experience, especially at night. 
-
-With a **fuel efficiency of 45 mpg**, it offers decent mileage for a sports bike, though its **price tag of $12,999** places it in the higher end of the market. While the bike is fantastic in terms of performance and handling, its **cost** might be a drawback for some riders.
-
-Overall, the **Honda CBR 600RR** is a top choice for those seeking a blend of power, design, and performance in the sports bike segment.
+Lorem ipsum dolor sit amet consectetur adipisicing elit Reiciendis odio est laboriosam ipsa similique in quis perferendis iure expedita Nemo harum vitae repellenduprovident explicabo eius unde et asperiores nihil
       </p>
       </section>
 
@@ -78,12 +71,7 @@ Overall, the **Honda CBR 600RR** is a top choice for those seeking a blend of po
 
       {/* Main Body of Blog */}
       <p className="text-lg leading-normal text-dark/80 dark:text-light/80">
-         Master Nextjs with our comprehensive full course playlist! This stepbystep series covers 
-      everything you need to build dynamic and highperformance web applications From the basics
-       of installation and setup to advanced features like serverside rendering API integration 
-       and deployment—this course has it all! Perfect for beginners and experienced developers 
-       looking to enhance their skills Start learning today and take your web development 
-       to the next level!
+   
       </p>
     </article>
   );
