@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 
 export default function page() {
   return (
@@ -9,15 +9,6 @@ export default function page() {
       Bike Details
 
       </h1>
-
-      {/* Featured Image */}
-      {/* <Image
-        src={""}
-        width={500}
-        height={500}
-        alt="AI for everyone"
-        className="rounded"
-      /> */}
        <img
             className="lg:h-[700px] md:h-36 w-full object-cover object-center"
             src="https://images.91wheels.com/news/wp-content/uploads/2021/03/2021-Hero-Passion-Pro-Pros-and-Cons-1.png"
